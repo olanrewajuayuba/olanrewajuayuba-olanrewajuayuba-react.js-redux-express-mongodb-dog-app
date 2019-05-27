@@ -1,0 +1,46 @@
+{
+  "name": "react.js-redux-express-mongodb-dog-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "client install": "npm install --prefix client",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"run npm server\" and \"npm run client\""
+  },
+  "keywords": [],
+  "author": "ayuba olanrewaju",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/storage": "^2.5.0",
+    "axios": "^0.18.1",
+    "base64-img": "^1.0.4",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "cloudinary": "^1.14.0",
+    "concurrently": "^4.1.0",
+    "cors": "^2.8.5",
+    "create-react-context": "^0.2.3",
+    "express": "^4.16.4",
+    "gravatar": "^1.8.0",
+    "gridfs-stream": "^1.1.1",
+    "imageurl-base64": "^1.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "method-override": "^3.0.0",
+    "mime-types": "^2.1.24",
+    "mongoose": "^5.4.19",
+    "multer": "^1.4.1",
+    "multer-gridfs-storage": "^3.2.3",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "reactstrap": "^8.0.0",
+    "request": "^2.88.0",
+    "restify": "^8.3.1",
+    "validator": "^10.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
